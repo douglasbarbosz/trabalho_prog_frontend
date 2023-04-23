@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30px;
+    background-color: #1A1A1A;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+}
+
+#botao {
+    background-color: #FFCC00;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+main {
+    background-color: #FFCC00;
+    padding: 100px;
+    text-align: center;
+    /* alinhar os elementos filhos ao centro */
+}
+
+.frase {
+    color: #333333;
+    font-weight: normal;
+    font-size: 35px;
+    flex-basis: 50%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+h1,
+input {
+    display: inline-block;
+    /* definir os elementos filhos como inline-block */
+}
+
+span {
+    font-weight: bold;
+}
+
+.form {
+    padding: 12px 20px 12px 30px;
+    border: none;
+    border-radius: 8px;
+    width: 500px;
+    height: 20px;
+    margin: 10px 0px 100px 0px;
+    border: 1px solid #9B9A98;
+}
