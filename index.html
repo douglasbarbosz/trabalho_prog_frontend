@@ -14,9 +14,27 @@
 
   <body>
     <header>
-      <div><img src="images/image.webp" alt="Logo" /></div>
-      <a href=""><button id="botao">ENTRAR</button></a>
-    </header>
+    <div><img src="images/image.webp" alt="Logo"></div>
+    <div id="incluir-nova-postagem" style="display: none">
+      <form id="inclusao-form">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="imagem">Imagem:</label>
+        <input type="text" id="imagem" name="imagem" required>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="conteudo">Conteúdo:</label>
+        <textarea id="conteudo" name="conteudo" required></textarea>
+
+        <button type="submit">Confirmar</button>
+      </form>
+    </div>
+    <button id="botao-incluir" onclick="mostrarInclusao()">Incluir</button>
+    <a href="pagina-login.html"><button id="botao">Entrar</button></a>
+  </header>
 
     <div id="main-inicio">
       <h1 class="frase">
